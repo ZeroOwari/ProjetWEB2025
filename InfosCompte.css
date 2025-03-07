@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #6e5ba3;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #7B8EEE;
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+footer {
+    background-color: #6e5ba3;
+    color: black;
+    padding: 15px;
+    font-size: 14px;
+}
+
+main {
+    background-image: url("backgroundcompte.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Suppression de la marge supérieure de 40px */
+    flex: 1;
+    padding: 40px 20px; /* Ajout de padding en haut pour l'espace */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px; /* Augmentation du padding */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%; /* Augmentation de la largeur de 80% à 90% */
+    max-width: 1000px; /* Augmentation de la largeur maximale de 800px à 1000px */
+}
+
+.left-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%; /* Réduction légère pour donner plus d'espace à droite */
+    margin-right: 50px; /* Augmentation de la marge */
+}
+
+.right-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 75%; /* Augmentation de la largeur */
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.user-info p {
+    margin: 5px 0;
+    text-align: left;
+}
+
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px; /* Plus d'espace entre les lignes */
+    width: 100%;
+}
+
+.row p {
+    margin: 0 20px 0 0; /* Plus d'espace entre les textes */
+    text-align: left;
+    font-size: 16px; /* Taille de police légèrement plus grande */
+}
+
+.row button {
+    margin-left: auto;
+    padding: 8px 12px; /* Boutons légèrement plus grands */
+}
