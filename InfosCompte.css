@@ -72,12 +72,16 @@ button:hover {
 footer {
     background-color: #6e5ba3;
     color: black;
-    padding: 15px;
+    padding: 5px;
     font-size: 14px;
 }
 
+#footer {
+    color : #f0f0f5;
+}
+
 main {
-    background-image: url("backgroundcompte.png");
+    background-image: url("assets/backgroundcompte.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,7 +94,7 @@ main {
 }
 
 .info-container {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #F4F7FF;    /*rgba(255, 255, 255, 0.8)*/
     padding: 40px; /* Augmentation du padding */
     border-radius: 10px;
     display: flex;
@@ -114,14 +118,15 @@ main {
     flex-direction: column;
     align-items: flex-start;
     width: 75%; /* Augmentation de la largeur */
+    color: #5D5897; /* Couleur du texte */
 }
 
 .avatar {
-    width: 100px;
-    height: 100px;
+    /*width: 200px;
+    height: 200px;
     background-color: #ddd;
-    border-radius: 50%;
-    margin-bottom: 20px;
+    border-radius: 70%;
+    margin-bottom: 20px;*/
 }
 
 .user-info p {
@@ -140,8 +145,11 @@ main {
 
 .row p {
     margin: 0 20px 0 0; /* Plus d'espace entre les textes */
-    text-align: left;
+    text-align: center;
+    background: #F4F7FF;
     font-size: 16px; /* Taille de police légèrement plus grande */
+    border: 2px solid #7B8EEE; /* Épaisseur, style et couleur de la bordure */
+    padding: 10px; /* Ajoute un espace intérieur entre le texte et la bordure */
 }
 
 .row button {
