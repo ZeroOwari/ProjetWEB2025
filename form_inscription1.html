@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P.T.A.S - Inscription</title>
+    <link rel="stylesheet" href="forms1.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Web4ALL</div>
+    <nav>
+        <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Inscription</a></li>
+            <li><a href="#">Connexion</a></li>
+            <li><a href="#">Espace recruteur</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="banner">
+    <h1>P.T.A.S</h1>
+</section>
+
+<section class="forms">
+    <form id="inscription-form" onsubmit="return validerFormulaire()">
+        <label for="nom">Nom* :</label>
+        <input type="text" id="nom" name="nom" required>
+        <span id="erreur-nom" class="erreur-message"></span>
+
+        <label for="prenom">Prénom* :</label>
+        <input type="text" id="prenom" name="prenom" required>
+        <span id="erreur-prenom" class="erreur-message"></span>
+
+        <label for="email">Email* :</label>
+        <input type="email" id="email" name="email" required>
+        <span id="erreur-email" class="erreur-message"></span>
+
+        <label for="entreprise">Entreprise (facultatif) :</label>
+        <input type="text" id="entreprise" name="entreprise">
+        <span id="erreur-entreprise" class="erreur-message"></span>
+
+        <button type="submit">Soumettre</button>
+    </form>
+</section>
+
+
+
+
+
+
+
+<footer>
+    <p> Tous droits réservés 2025 © Politique relative aux cookies, politique de confidentialité et conditions d'utilisation </p>
+</footer>
+
+</body>
+</html>
